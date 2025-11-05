@@ -1,0 +1,41 @@
+Step 1)
+- in Sections create "header.liquid" file 
+1) first create all variables like 
+ i.e 
+ {%- liquid
+  assign section_st = section.settings
+  assign theme_st = settings
+  assign section_width = section_st.section_width
+  .
+  .
+ -%}
+
+ 2) we can add style also (optional)
+    i.e. 
+  {%- style -%}
+    @media screen and (min-width: 768px) {
+      header-inner.show-search-form.logo-left {
+        grid-template-columns: auto auto 1fr;
+      }
+    }
+  {%- endstyle -%}
+
+3) add Schema code
+
+4) add all html header code 
+     <header>...</header>
+
+
+
+Step 2)
+- in Sections create "header-group.json" file 
+- add code from main glozin file. 
+
+
+Step 3) 
+- Open "layout" folder and open "theme.liquid" file and check 
+   {%- liquid
+      sections 'header-group'
+    -%}
+
+     
