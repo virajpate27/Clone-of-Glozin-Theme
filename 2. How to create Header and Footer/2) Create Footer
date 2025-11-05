@@ -1,0 +1,11 @@
+Step 1) 
+ - Create "footer.liquid" file in section 
+- add code like variables, css code, schema code, and <footer>...</footer>
+
+Step 2) 
+- Create "footer-group.json" file in section
+- add json code from main glozin theme file 
+
+Step 3)
+- Open "layout" folder and open "theme.liquid" file 
+- {% sections 'footer-group' %}
