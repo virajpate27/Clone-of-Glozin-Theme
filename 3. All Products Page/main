@@ -1,0 +1,28 @@
+1) Create "collection.json" in "Template" Folder 
+    - {
+        "sections":{
+          "main":{
+                 "type": "main-collection-product",
+                 "settings":{
+                   ...
+                 }
+           }
+        },
+         "order": [
+            "main"
+        ]
+      }
+
+2) Create "main-collection-product.liquid" in "Section" Folder
+   - add assets link 
+   - assign variables 
+   - render "collection-sidebar" snipet 
+   - render "collection-toolbar" snipet
+   - render 'filter-current' snipet
+   - "paginate" for Pagination 
+   - "collection.products" get all 
+      - {%- for product in collection.products -%}
+   - render "responsive-image"
+   - render "product-item"
+   - render "pagination"
+   
