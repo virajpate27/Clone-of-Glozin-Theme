@@ -5,7 +5,8 @@ Clone Theme: https://drive.google.com/drive/folders/1XTW__MORZGBQNZ7LNCUxLbsLIpT
 
 1) upload clone-glozin.zip theme 
    - all glozin folder data except Section, and Templates
-   
+   - Create "hero.liquid" file in section [check 1.1 file]
+   - Create "index.json" file in "Template" Folder [check 1.2 file]
 2) We create Header and Footer 
 
 3) Cretate Main Collection Product (All Products)
