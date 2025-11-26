@@ -13,6 +13,8 @@
         ]
       }
 
+Note: paste default "main" theme code
+
 2) Create "main-collection-product.liquid" in "Section" Folder
    - add assets link 
    - assign variables 
