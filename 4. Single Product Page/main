@@ -1,0 +1,32 @@
+1) Create "product.json" in "Template" Folder 
+    - {
+        "sections":{
+          "main":{
+                 "type": "main-product",
+                 "settings":{
+                   ...
+                 }
+           }
+        },
+         "order": [
+            "main"
+        ]
+      }
+Note: paste default "main" theme code
+
+
+2) Create "main-product.liquid" in "Section" Folder
+- add assets link 
+- assign variables 
+- render 'media-gallery'
+- For Product Information use "For" Loop
+    - use "case, when"
+    - render 'product-badges'
+    - render 'review'
+    - render 'price'
+    - render 'buy-buttons'
+    - render 'color-swatches'
+    - render 'responsive-image'
+    - render 'pickup-availability'
+
+- and manual codding 
